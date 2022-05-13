@@ -18,6 +18,13 @@ const routes = [
     component: () => import("components/DataUtil.vue"),
   },
 
+  // Categories
+  {
+    path: "/categories",
+    name: "categories",
+    component: () => import("components/CategoryList.vue"),
+  },
+
   // Always leave this as last one,
   // but you can also remove it
   {

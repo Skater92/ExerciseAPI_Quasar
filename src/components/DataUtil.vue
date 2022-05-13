@@ -22,7 +22,7 @@ export default {
     });
     const loadCategories = async () => {
       // replace ###### with the port number your ASP.Net core server is using
-      let url = "https://localhost:8081/api/Data";
+      let url = "https://localhost:7285/api/Data";
       try {
         state.status = "resetting exercise tables ...";
         let response = await fetch(`${url}`);
