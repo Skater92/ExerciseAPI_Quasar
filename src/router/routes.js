@@ -25,6 +25,12 @@ const routes = [
     component: () => import("components/CategoryList.vue"),
   },
 
+  {
+    path: "/tray",
+    name: "tray",
+    component: () => import("components/TrayContainer.vue"),
+  },
+
   // Always leave this as last one,
   // but you can also remove it
   {
